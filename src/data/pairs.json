@@ -1,158 +1,343 @@
 [
   {
     "id": 1,
-    "word_arabic_1": "الزيت",
-    "word_english_1": "The Oil",
-    "count_1": 2,
-    "word_arabic_2": "الشجرة",
-    "word_english_2": "The Tree",
-    "count_2": 2,
-    "category": "equality",
-    "methodology_note": "Oil and tree mentioned with perfect balance in Quran",
-    "occurrences_1": [
-      { "surah": 23, "verse": 20 },
-      { "surah": 24, "verse": 35 }
-    ],
-    "occurrences_2": [
-      { "surah": 14, "verse": 24 },
-      { "surah": 23, "verse": 19 }
-    ]
+    "category": "Equality",
+    "word_arabic_1": "الناس",
+    "word_english_1": "People",
+    "count_1": 368,
+    "occurrences_1": {
+    },
+
+    "word_arabic_2": "الرسل",
+    "word_english_2": "Messengers",
+    "count_2": 368,
+    "occurrences_2": {
+    }
   },
   {
     "id": 2,
-    "word_arabic_1": "الصلاة",
-    "word_english_1": "Prayer",
-    "count_1": 3,
-    "word_arabic_2": "الزكاة",
-    "word_english_2": "Charity",
-    "count_2": 3,
-    "category": "equality",
-    "methodology_note": "Prayer and charity mentioned together in perfect symmetry",
-    "occurrences_1": [
-      { "surah": 2, "verse": 43 },
-      { "surah": 4, "verse": 77 },
-      { "surah": 73, "verse": 20 }
-    ],
-    "occurrences_2": [
-      { "surah": 2, "verse": 43 },
-      { "surah": 4, "verse": 77 },
-      { "surah": 73, "verse": 20 }
-    ]
+    "category": "Equality",
+    "word_arabic_1": "الحياة",
+    "word_english_1": "Life",
+    "count_1": 145,
+    "occurrences_1": {
+        "2": [164],
+        "3": [27]
+    },
+
+    "word_arabic_2": "الموت",
+    "word_english_2": "Death",
+    "count_2": 145,
+    "occurrences_2": {
+        "3": [27],
+        "2": [28]
+    }
   },
   {
     "id": 3,
+    "category": "Equality",
     "word_arabic_1": "الدنيا",
-    "word_english_1": "The World",
-    "count_1": 2,
+    "word_english_1": "This World",
+    "count_1": 115,
+    "occurrences_1": {
+      "2": [164],
+      "16": [41]
+    },
+
     "word_arabic_2": "الآخرة",
     "word_english_2": "The Hereafter",
-    "count_2": 2,
-    "category": "equality",
-    "methodology_note": "Mentioned with perfect symmetry throughout the Quran",
-    "occurrences_1": [
-      { "surah": 2, "verse": 164 },
-      { "surah": 16, "verse": 41 }
-    ],
-    "occurrences_2": [
-      { "surah": 2, "verse": 272 },
-      { "surah": 4, "verse": 134 }
-    ]
+    "count_2": 115,
+    "occurrences_2": {
+        "2": [272],
+        "4": [134]
+    }
   },
   {
     "id": 4,
-    "word_arabic_1": "ينهى",
-    "word_english_1": "He forbids",
-    "count_1": 2,
-    "word_arabic_2": "يأمر",
-    "word_english_2": "He commands",
-    "count_2": 4,
-    "category": "ratio",
-    "methodology_note": "Commands mentioned twice as often as forbidding",
-    "occurrences_1": [
-      { "surah": 16, "verse": 90 },
-      { "surah": 7, "verse": 33 }
-    ],
-    "occurrences_2": [
-      { "surah": 16, "verse": 90 },
-      { "surah": 29, "verse": 45 },
-      { "surah": 7, "verse": 157 },
-      { "surah": 9, "verse": 71 }
-    ]
+    "category": "Equality",
+    "word_arabic_1": "الشدة",
+    "word_english_1": "Hardship",
+    "count_1": 114,
+    "occurrences_1": {
+    },
+
+    "word_arabic_2": "الصبر",
+    "word_english_2": "Patience",
+    "count_2": 114,
+    "occurrences_2": {
+    }
   },
   {
     "id": 5,
-    "word_arabic_1": "القرآن",
-    "word_english_1": "The Quran",
-    "count_1": 2,
-    "word_arabic_2": "الفرقان",
-    "word_english_2": "The Criterion",
-    "count_2": 2,
-    "category": "equality",
-    "methodology_note": "Related terms with equal occurrences",
-    "occurrences_1": [
-      { "surah": 27, "verse": 92 },
-      { "surah": 36, "verse": 69 }
-    ],
-    "occurrences_2": [
-      { "surah": 2, "verse": 53 },
-      { "surah": 8, "verse": 41 }
-    ]
+    "category": "Equality",
+    "word_arabic_1": "الملائكة",
+    "word_english_1": "Angels",
+    "count_1": 88,
+    "occurrences_1": {
+    },
+
+    "word_arabic_2": "الشياطين",
+    "word_english_2": "Devils",
+    "count_2": 88,
+    "occurrences_2": {
+    }
   },
   {
     "id": 6,
-    "word_arabic_1": "السماء",
-    "word_english_1": "The Sky",
-    "count_1": 2,
-    "word_arabic_2": "الأرض",
-    "word_english_2": "The Earth",
-    "count_2": 2,
-    "category": "equality",
-    "methodology_note": "Heaven and earth balanced perfectly",
-    "occurrences_1": [
-      { "surah": 2, "verse": 29 },
-      { "surah": 30, "verse": 25 }
-    ],
-    "occurrences_2": [
-      { "surah": 2, "verse": 29 },
-      { "surah": 30, "verse": 25 }
-    ]
+    "category": "Equality",
+    "word_arabic_1": "المصيبة",
+    "word_english_1": "Calamity",
+    "count_1": 75,
+    "occurrences_1": {
+    },
+
+    "word_arabic_2": "الشكر",
+    "word_english_2": "Gratitude",
+    "count_2": 75,
+    "occurrences_2": {
+    }
   },
   {
     "id": 7,
-    "word_arabic_1": "يوم",
-    "word_english_1": "Day",
-    "count_1": 2,
-    "word_arabic_2": "ليل",
-    "word_english_2": "Night",
-    "count_2": 2,
-    "category": "equality",
-    "methodology_note": "Day and night have symmetric mentions",
-    "occurrences_1": [
-      { "surah": 10, "verse": 6 },
-      { "surah": 37, "verse": 5 }
-    ],
-    "occurrences_2": [
-      { "surah": 10, "verse": 6 },
-      { "surah": 25, "verse": 62 }
-    ]
+    "category": "Equality",
+    "word_arabic_1": "الإنفاق",
+    "word_english_1": "Spending (Charity)",
+    "count_1": 73,
+    "occurrences_1": {
+    },
+
+    "word_arabic_2": "الرضا",
+    "word_english_2": "Satisfaction/Contentment",
+    "count_2": 73,
+    "occurrences_2": {
+    }
   },
   {
     "id": 8,
-    "word_arabic_1": "حياة",
-    "word_english_1": "Life",
-    "count_1": 2,
-    "word_arabic_2": "موت",
-    "word_english_2": "Death",
-    "count_2": 2,
-    "category": "equality",
-    "methodology_note": "Life and death mentioned equally",
-    "occurrences_1": [
-      { "surah": 2, "verse": 164 },
-      { "surah": 3, "verse": 27 }
-    ],
-    "occurrences_2": [
-      { "surah": 3, "verse": 27 },
-      { "surah": 2, "verse": 28 }
-    ]
+    "category": "Equality",
+    "word_arabic_1": "السحر",
+    "word_english_1": "Magic",
+    "count_1": 60,
+    "occurrences_1": {
+    },
+
+    "word_arabic_2": "الفتنة",
+    "word_english_2": "Trial/Temptation",
+    "count_2": 60,
+    "occurrences_2": {
+    }
+  },
+  {
+    "id": 9,
+    "category": "Equality",
+    "word_arabic_1": "الفساد",
+    "word_english_1": "Corruption",
+    "count_1": 50,
+    "occurrences_1": {
+    },
+
+    "word_arabic_2": "النفع",
+    "word_english_2": "Benefit",
+    "count_2": 50,
+    "occurrences_2": {
+    }
+  },
+  {
+    "id": 10,
+    "category": "Equality",
+    "word_arabic_1": "العقل",
+    "word_english_1": "Intellect",
+    "count_1": 49,
+    "occurrences_1": {
+    },
+
+    "word_arabic_2": "النور",
+    "word_english_2": "Light",
+    "count_2": 49,
+    "occurrences_2": {
+    }
+  },
+  {
+    "id": 11,
+    "category": "Equality",
+    "word_arabic_1": "المسلمون",
+    "word_english_1": "Muslims",
+    "count_1": 41,
+    "occurrences_1": {
+    },
+
+    "word_arabic_2": "الجهاد",
+    "word_english_2": "Striving (Jihad)",
+    "count_2": 41,
+    "occurrences_2": {
+    }
+  },
+  {
+    "id": 12,
+    "category": "Equality",
+    "word_arabic_1": "الزكاة",
+    "word_english_1": "Alms-giving",
+    "count_1": 32,
+    "occurrences_1": {
+    },
+
+    "word_arabic_2": "البركة",
+    "word_english_2": "Blessing",
+    "count_2": 32,
+    "occurrences_2": {
+    }
+  },
+  {
+    "id": 13,
+    "category": "Equality",
+    "word_arabic_1": "اللسان",
+    "word_english_1": "Tongue",
+    "count_1": 25,
+    "occurrences_1": {
+    },
+
+    "word_arabic_2": "الموعظة",
+    "word_english_2": "Sermon/Admonition",
+    "count_2": 25,
+    "occurrences_2": {
+    }
+  },
+  {
+    "id": 14,
+    "category": "Equality",
+    "word_arabic_1": "الرجل",
+    "word_english_1": "Man",
+    "count_1": 24,
+    "occurrences_1": {
+    },
+
+    "word_arabic_2": "المرأة",
+    "word_english_2": "Woman",
+    "count_2": 24,
+    "occurrences_2": {
+    }
+  },
+  {
+    "id": 15,
+    "category": "Equality",
+    "word_arabic_1": "الضالون",
+    "word_english_1": "Those astray",
+    "count_1": 17,
+    "occurrences_1": {
+    },
+
+    "word_arabic_2": "الموتى",
+    "word_english_2": "The Dead",
+    "count_2": 17,
+    "occurrences_2": {
+        
+    }
+  },
+  {
+    "id": 16,
+    "category": "Equality",
+    "word_arabic_1": "الجهر",
+    "word_english_1": "Publicity",
+    "count_1": 16,
+    "occurrences_1": {
+    },
+
+    "word_arabic_2": "العلانية",
+    "word_english_2": "Openness",
+    "count_2": 16,
+    "occurrences_2": {
+    }
+  },
+  {
+    "id": 17,
+    "category": "Equality",
+    "word_arabic_1": "إبليس",
+    "word_english_1": "Iblis (Satan)",
+    "count_1": 11,
+    "occurrences_1": {
+    },
+
+    "word_arabic_2": "الاستعاذة",
+    "word_english_2": "Seeking Refuge",
+    "count_2": 11,
+    "occurrences_2": {
+    }
+  },
+  {
+    "id": 18,
+    "category": "Equality",
+    "word_arabic_1": "الرغبة",
+    "word_english_1": "Desire/Hope",
+    "count_1": 8,
+    "occurrences_1": {
+    },
+
+    "word_arabic_2": "الرهبة",
+    "word_english_2": "Fear/Awe",
+    "count_2": 8,
+    "occurrences_2": {
+    }
+  },
+  {
+    "id": 19,
+    "category": "Equality",
+    "word_arabic_1": "الذهب",
+    "word_english_1": "Gold",
+    "count_1": 8,
+    "occurrences_1": {
+    },
+
+    "word_arabic_2": "الترف",
+    "word_english_2": "Luxury",
+    "count_2": 8,
+    "occurrences_2": {
+    }
+  },
+  {
+    "id": 20,
+    "category": "Equality",
+    "word_arabic_1": "محمد",
+    "word_english_1": "Muhammad",
+    "count_1": 4,
+    "occurrences_1": {
+    },
+
+    "word_arabic_2": "الشريعة",
+    "word_english_2": "Divine Law",
+    "count_2": 4,
+    "occurrences_2": {
+    }
+  },
+  {
+    "id": 21,
+    "category": "Ratio",
+    "word_arabic_1": "يوم",
+    "word_english_1": "Day",
+    "count_1": 365,
+    "occurrences_1": {
+        "10": [6],
+        "37": [5]
+    },
+
+    "word_arabic_2": "شهر",
+    "word_english_2": "Month",
+    "count_2": 12,
+    "occurrences_2": {
+    }
+  },
+  {
+    "id": 22,
+    "category": "Ratio",
+    "word_arabic_1": "بحر",
+    "word_english_1": "Sea",
+    "count_1": 32,
+    "occurrences_1": {
+    },
+
+    "word_arabic_2": "بر",
+    "word_english_2": "Land",
+    "count_2": 13,
+    "occurrences_2": {
+    }
   }
 ]

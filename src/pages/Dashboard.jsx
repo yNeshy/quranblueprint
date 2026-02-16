@@ -25,7 +25,8 @@ export default function Dashboard() {
       p.word_english_2?.toLowerCase().includes(search.toLowerCase()) ||
       p.word_arabic_1?.includes(search) ||
       p.word_arabic_2?.includes(search);
-    const matchesCategory = category === "all" || p.category === category;
+    const matchesCategory = category === "all" || p.category.toLowerCase() === category;
+
     return matchesSearch && matchesCategory;
   });
 

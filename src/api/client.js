@@ -49,12 +49,17 @@ async function loadData() {
     quranArabic = quranArabicRaw;
     quranEnglish = quranEnglishRaw;
     
-    // Merge occurrence references with actual verse text
-    wordPairsData = pairsDataRaw.map(pair => ({
-      ...pair,
-      occurrences_1: pair.occurrences_1.map(occ => enrichOccurrence(occ)),
-      occurrences_2: pair.occurrences_2.map(occ => enrichOccurrence(occ)),
-    }));
+    // Convert new occurrence structure (surah_id -> verses) to enriched format
+    wordPairsData = pairsDataRaw.map(pair => {
+      const enrichedOccurrences_1 = convertAndEnrichOccurrences(pair.occurrences_1);
+      const enrichedOccurrences_2 = convertAndEnrichOccurrences(pair.occurrences_2);
+
+      return {
+        ...pair,
+        occurrences_1: enrichedOccurrences_1,
+        occurrences_2: enrichedOccurrences_2,
+      };
+    });
 
     return wordPairsData;
   } catch (error) {
@@ -64,13 +69,29 @@ async function loadData() {
 }
 
 /**
- * Enrich occurrence with full verse text and surah names
- * @param {Object} occ - Occurrence object with surah and verse properties
+ * Convert new occurrence structure (surah_id -> verses array) and enrich with verse text
+ * @param {Object} occurrencesMap - Object with surah IDs as keys and verse arrays as values
  */
-function enrichOccurrence(occ) {
-  const surahNum = occ.surah; // 1-based chapter number
-  const verseNum = occ.verse; // 1-based verse number
+function convertAndEnrichOccurrences(occurrencesMap) {
+  const enriched = [];
   
+  for (const [surahId, verses] of Object.entries(occurrencesMap)) {
+    const surahNum = parseInt(surahId);
+    
+    for (const verseNum of verses) {
+      enriched.push(enrichOccurrence(surahNum, verseNum));
+    }
+  }
+  
+  return enriched;
+}
+
+/**
+ * Enrich occurrence with full verse text and surah names
+ * @param {number} surahNum - 1-based chapter number
+ * @param {number} verseNum - 1-based verse number
+ */
+function enrichOccurrence(surahNum, verseNum) {
   const surah = surahNames[surahNum] || {
     arabic: `سورة ${surahNum}`,
     english: `Chapter ${surahNum}`,

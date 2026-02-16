@@ -47,15 +47,6 @@ export default function VerificationPanel({ pair, onClose }) {
             </button>
           </div>
 
-          {/* Methodology note */}
-          {pair.methodology_note && (
-            <div className="mt-4 p-3 rounded-lg bg-[#d4a843]/5 border border-[#d4a843]/10">
-              <p className="text-xs text-[#d4a843]/70">
-                <span className="font-semibold">Methodology:</span> {pair.methodology_note}
-              </p>
-            </div>
-          )}
-
           {/* Tab toggles */}
           <div className="flex gap-2 mt-5">
             {[1, 2].map((tab) => {
